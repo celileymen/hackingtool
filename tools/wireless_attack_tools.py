@@ -137,7 +137,7 @@ class Howmanypeople(HackingTool):
     RUN_COMMANDS = ["howmanypeoplearearound"]
 
 
-class WirelessAttackTools(HackingToolsCollection):
+class WirelessAttackTools(HackingTool):
     TITLE = "Wireless attack tools"
     DESCRIPTION = ""
     TOOLS = [
